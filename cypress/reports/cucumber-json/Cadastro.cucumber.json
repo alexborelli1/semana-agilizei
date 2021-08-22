@@ -1,0 +1,62 @@
+[
+  {
+    "description": "       Feature Description",
+    "keyword": "Funcionalidade",
+    "name": "Cadastro",
+    "line": 2,
+    "id": "cadastro",
+    "tags": [],
+    "uri": "Cadastro.feature",
+    "elements": [
+      {
+        "id": "cadastro;cadastro-de-novo-usuário",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Cadastro de novo usuário",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 7,
+            "name": "que acesso o site",
+            "result": {
+              "status": "passed",
+              "duration": 14338000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 8,
+            "name": "informar os meus dados",
+            "result": {
+              "status": "failed",
+              "duration": 6576000000,
+              "error_message": "CypressError: Timed out retrying: `cy.select()` failed because it could not find a single `<option>` with value or text matching: `Android`\n\nhttps://on.cypress.io/select\n    at getOptions (http://demo.automationtesting.in/__cypress/runner/cypress_runner.js:151782:21)\n    at tryCatcher (http://demo.automationtesting.in/__cypress/runner/cypress_runner.js:10130:23)\n    at Function.Promise.attempt.Promise.try (http://demo.automationtesting.in/__cypress/runner/cypress_runner.js:7404:29)\n    at retryOptions (http://demo.automationtesting.in/__cypress/runner/cypress_runner.js:151820:30)\n    at tryCatcher (http://demo.automationtesting.in/__cypress/runner/cypress_runner.js:10130:23)\n    at Function.Promise.attempt.Promise.try (http://demo.automationtesting.in/__cypress/runner/cypress_runner.js:7404:29)\n    at tryFn (http://demo.automationtesting.in/__cypress/runner/cypress_runner.js:162938:24)\n    at whenStable (http://demo.automationtesting.in/__cypress/runner/cypress_runner.js:162979:12)\n    at http://demo.automationtesting.in/__cypress/runner/cypress_runner.js:162502:16\n    at tryCatcher (http://demo.automationtesting.in/__cypress/runner/cypress_runner.js:10130:23)\n    at Promise._settlePromiseFromHandler (http://demo.automationtesting.in/__cypress/runner/cypress_runner.js:8065:31)\n    at Promise._settlePromise (http://demo.automationtesting.in/__cypress/runner/cypress_runner.js:8122:18)\n    at Promise._settlePromise0 (http://demo.automationtesting.in/__cypress/runner/cypress_runner.js:8167:10)\n    at Promise._settlePromises (http://demo.automationtesting.in/__cypress/runner/cypress_runner.js:8247:18)\n    at Promise._fulfill (http://demo.automationtesting.in/__cypress/runner/cypress_runner.js:8191:18)\n    at http://demo.automationtesting.in/__cypress/runner/cypress_runner.js:9805:46\nFrom Your Spec Code:\n    at Context.eval (http://demo.automationtesting.in/__cypress/tests?p=cypress\\integration\\Cadastro.feature:54:27)\n    at Context.resolveAndRunStepDefinition (http://demo.automationtesting.in/__cypress/tests?p=cypress\\integration\\Cadastro.feature:18326:9)\n    at Context.eval (http://demo.automationtesting.in/__cypress/tests?p=cypress\\integration\\Cadastro.feature:17655:35)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 9,
+            "name": "salvar",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Entao ",
+            "line": 10,
+            "name": "devo ser cadastrado com sucesso",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
