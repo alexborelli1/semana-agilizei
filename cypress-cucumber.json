@@ -1,0 +1,11 @@
+{
+
+        "$schema": "https://raw.githubusercontent.com/cypress-io/cypress/v4.10.0/cli/schema/cypress.schema.json",
+        "baseUrl": "https://demo.automationtesting.in/",
+        "experimentalSourceRewriting": true,
+        "watchForFileChanges": true,
+        "viewportWidth": 1250,
+        "viewportHeight": 1050,
+        "testFiles": "**/*.{feature,features}"
+
+}
