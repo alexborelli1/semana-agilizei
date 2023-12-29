@@ -25,6 +25,11 @@ jobs:
     steps:
     # Checkout do codigo do projeto
     - uses: actions/checkout@v2
+    - name: Save state
+      run: echo "{name}={value}" >> $GITHUB_STATE
+
+    - name: Set output
+      run: echo "{name}={value}" >> $GITHUB_OUTPUT
      
     # Setup do Node.JS 
     - name: Setup Node.js environment
