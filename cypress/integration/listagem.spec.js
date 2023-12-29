@@ -1,7 +1,7 @@
 /// <reference types="cypress" />
 
 context('Listagem', () => {
-    it.only('Listagem sem registros', () => {
+    it('Listagem sem registros', () => {
         cy.server();
         cy.route({ 
             method: 'GET',
